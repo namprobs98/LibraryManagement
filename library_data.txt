@@ -1,0 +1,10 @@
+[BOOKS]
+B001|Java Basics|John Doe|Programming|5|1
+B002|Python 101|Jane Smith|Programming|7|0
+B003|C++ Primer|Alex Brown|Programming|4|0
+[MEMBERS]
+M001|Alice Johnson|alice@example.com|1234567890
+M002|Bob Smith|bob@example.com|0987654321
+M003|Charlie Brown|charlie@example.com|1122334455
+[BORROW_RECORDS]
+BR1|M001|B001|2026-05-28|

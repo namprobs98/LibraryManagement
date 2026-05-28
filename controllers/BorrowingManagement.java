@@ -116,8 +116,8 @@ public class BorrowingManagement {
         // Update the book's borrowed count and record the return transaction       
         Book book = books.get(bookId);
         if (book.getBook_borrowed() <= 0) {
-            System.out.println("Error: No copies of this book are currently borrowed.");
-            return;
+                System.out.println("Error: No copies of this book are currently borrowed.");
+                return;
         }
         book.setBook_borrowed(book.getBook_borrowed() - 1);
         // Find the corresponding borrow record and update the return date
